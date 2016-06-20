@@ -8,3 +8,34 @@ h1{
     text-transform: capitalize;
 }
 
+p.lo1{
+    text-align: justify;
+    color: darkgreen;
+}
+
+p.lo1:first-letter{
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+p.lo2:first-line{
+    color: brown;
+/*    text-indent: 3em; */
+}
+
+p.lo2{
+    text-indent: 2em;
+}
+
+a:link{
+    color: fuchsia;
+}
+
+a:visited{
+    color: dodgerblue;
+}
+
+a:hover{
+    color: yellow;
+}
