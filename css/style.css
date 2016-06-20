@@ -6,6 +6,7 @@ h1{
     text-transform: uppercase;
 /*    text-indent: 3em;*/
     text-align: center;
+    text-shadow: -3px 5px 8px #54a2b4;
 }
 
 p.lo1:first-letter{
@@ -19,4 +20,8 @@ p.lo2{
 p.lo3:first-line{
     text-shadow: 4px 6px 6px #eaa333;
     text-decoration: underline;
+}
+
+p.lo3{
+    text-indent: 3em;
 }
