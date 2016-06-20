@@ -6,8 +6,22 @@ h1{
     text-transform: uppercase;
 /*    text-indent: 3em;*/
     text-align: center;
+    text-shadow: -3px 5px 8px #54a2b4;
 }
 
-p.lo1{
-    text-shadow: 5px 8px 9px #875abc;
+p.lo1:first-letter{
+    text-shadow: 3px 8px 9px #875abc;
+}
+
+p.lo2{
+    text-shadow: 6px 8px 10px #652dea;
+}
+
+p.lo3:first-line{
+    text-shadow: 4px 6px 6px #eaa333;
+    text-decoration: underline;
+}
+
+p.lo3{
+    text-indent: 3em;
 }
