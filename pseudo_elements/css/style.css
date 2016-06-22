@@ -32,10 +32,14 @@ a:link{
     color: fuchsia;
 }
 
-a:visited{
+p.lo2>a:visited{
     color: dodgerblue;
 }
 
-a:hover{
-    color: yellow;
+p.lo2 a:hover{
+    color: aquamarine;
+}
+
+p.lo3 a:active{
+    color: coral;
 }
