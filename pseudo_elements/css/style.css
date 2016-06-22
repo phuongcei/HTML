@@ -1,3 +1,7 @@
+/*
+when pseudo-classes are used, they should appear in following order: link, visited, hover, focus, active
+
+*/
 body{
     background-color: beige;
 }
