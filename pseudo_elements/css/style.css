@@ -19,17 +19,23 @@ p.lo1{
 
 p.lo1:first-letter{
     color: red;
-    font-weight: bold;
-    font-size: 30px;
 }
 
+p.lo4:first-letter{
+    font-family: sans-serif;
+    font-weight:bold;
+    font-weight: bold;
+    font-size: 25px;
+    color: yellow;
+    
+}
 p.lo2:first-line{
     color: brown;
 /*    text-indent: 3em; */
 }
 
 p.lo2{
-    text-indent: 2em;
+    text-indent: 3em;
 }
 
 a:link{
@@ -46,4 +52,31 @@ p.lo2 a:hover{
 
 p.lo3 a:active{
     color: coral;
+}
+
+p[class]{
+    background-color:cornflowerblue;
+}
+
+p[class="lo2"]{
+    background-color:aquamarine;
+    line-height: 2em;
+}
+ 
+p[class~="lo4"]{
+    background-color:coral;
+}
+p[id="lo1"]{
+    font-size: 12px;
+    
+}
+
+p[id$="ng"]{
+    background-color: darkseagreen;
+    text-transform: uppercase;
+    word-spacing: 2em;
+}
+
+p.lo3{
+    text-align: justify;
 }
