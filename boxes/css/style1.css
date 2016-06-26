@@ -1,6 +1,39 @@
+h1:first-letter{
+    text-transform: uppercase;
+    color: red;
+}
 h1{
-    viet hoa chu dau;
-    dua vao o giua;
-    text-shadow;
-    chu dau tien mau do;
+    text-shadow: 3px -4px 7px #aec214;
+    text-indent: 2em;
+}
+
+h2{
+    text-decoration: underline;
+    text-indent: 1em;
+}
+
+ol{ /*We can use li{}  */
+    line-height: 2em;
+}
+
+div.box{
+    width: 500px;
+    height: 100px;
+    background-color: rgb(27,146,74);
+    color: saddlebrown;
+    text-align: justify;
+    line-height: 1.5em;
+    font-family: sans-serif;
+}
+
+p{
+    height:92%;
+    width: 95%;
+    background-color: #bbbbaa;
+}
+
+td.description{
+    min-width: 100px;
+    max-width: 200px;
+    
 }
