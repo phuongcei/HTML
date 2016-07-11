@@ -34,6 +34,24 @@ p{
 
 td.description{
     min-width: 100px;
-    max-width: 200px;
+    max-width: 250px;
+    text-align: left;
+    padding: 15px;
+    margin: 0px;
+    background-color: aqua;
     
+}
+
+td.javalogo {
+   min-width: 100px;
+    max-width: 250px;
+    text-align: left;
+    padding: 05px;
+    margin: 0px;
+    background-color: burlywood;
+}
+
+tr.tableheader{
+    text-decoration: underline;
+    color: cornflowerblue;
 }
