@@ -1,0 +1,101 @@
+ul {
+    list-style-type: square;
+    /*    list-style-image: url('../images/star.png');*/
+    /*    list-style: outside circle;*/
+    /*    list-style: url('../images/star.png') inside;*/
+}
+
+li {
+    margin: 5px 0px 0px 40px;
+}
+
+li.first {
+    list-style: url('../images/star.png') inside;
+}
+
+li.second {
+    list-style: outside url('../images/star.png');
+}
+
+td {
+    padding: 3px;
+    border: 1px solid #abc332;
+}
+
+td.first_col {
+    border-left: 2px dashed #eca412;
+    text-align: center;
+}
+
+th {
+    border-bottom: 2px dotted #453acb;
+    background-color: azure;
+    font-size: 22px;
+}
+
+td:hover {
+    color: coral;
+}
+
+.money {
+    text-align: right;
+}
+
+a:hover {
+    color: red;
+}
+
+tr.even {
+    background-color: aliceblue;
+}
+
+table {
+    /*    empty-cells: hide;*/
+    border-spacing: 0px 5px;
+    border-collapse: collapse;
+    border-collapse: separate;
+    empty-cells: hide;
+}
+
+input {
+    font-size: 110%;
+    border: 2px dotted #3a6a29;
+    border-radius: 50px;
+    margin: 2px;
+    padding: 5px;
+    background-color: white;
+    padding: 0px 0px 0px 20px;
+}
+
+input#email {
+    background-image: url("../images/email.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    /*    background-color: red;*/
+}
+
+input.submit {
+    color: brown;
+    padding: 0px 5px 0px 5px;
+}
+
+input.submit:hover {
+    /*    background-color: darkcyan;*/
+    color: #333333;
+    border: 1px solid #a4a4a4;
+    border-top: 2px solid #b2b2b2;
+    background-color: #a0dbc4;
+    background: -webkit-gradient(linear, left top, left bottom, from(#a8cfce), to(#beeae9));
+    background: -moz-linear-gradient(top, #a8cfce, #beeae9);
+    background: -o-linear-gradient(top, #a8cfce, #beeae9);
+    background: -ms-linear-gradient(top, #a8cfce, #beeae9);
+}
+
+legend{
+    background-color: azure;
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lists - Table - Form</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <h1>Poetry Workshops</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia ea nemo voluptatibus corporis dolor magni reiciendis iure, suscipit labore, atque, laborum ex neque ducimus quo recusandae similique in! Reprehenderit, saepe!
+    </p>
+    <p>Please note that the following events are free to members:
+    </p>
+    <ul>
+        <li class="first">A Poetic Perspective Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam aut quod impedit accusantium atque quam, provident ea sapiente assumenda laborum debitis. Doloremque sit dicta laboriosam, veritatis exercitationem reiciendis animi facilis.</li>
+        <li class="second">Wait Whitman at War Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo dicta blanditiis optio deserunt nobis, corporis officiis repellat temporibus soluta autem consequatur quaerat odit et ipsam nostrum veniam placeat dolore vitae.</li>
+        <li>Found Poems and Outsider Poetry</li>
+    </ul>
+
+    <table>
+        <tr>
+            <td class="empty"></td>
+            <th><a href="#">New York</a></th>
+            <th><a href="#">Chicago</a></th>
+            <th><a href="#">San Francisco</a></th>
+        </tr>
+        <tr>
+            <td class="first_col">A Poetic Perspective </td>
+            <td>Sat, 4 Feb 2012 11am - 2pm</td>
+            <td>Sat, 3 Mar 2012 11am - 2pm</td>
+            <td class="money">$1900</td>
+        </tr>
+        <tr class="even">
+            <td class="first_col">Wait Whitman a War</td>
+            <td>Sat, 17 Apr 2012 11am - 2pm</td>
+            <td>Sun, 18 Mar 2012 11am - 2pm</td>
+            <td class="money">$1245.3</td>
+        </tr>
+        <tr>
+            <td class="first_col">Found Poems and Outsider Poetry</td>
+            <td>Sat, 17 Mar 2012 11am - 2pm</td>
+            <td>Sat, 17 Mar 2012 11am - 2pm</td>
+            <td class="money">$900</td>
+        </tr>
+        <tr class="even">
+            <td class="first_col">Natural DeathDeath: An Exploration</td>
+            <td>Sat, 17 Mar 2012 11am - 2pm</td>
+            <td>Sat, 17 Mar 2012 11am - 2pm</td>
+            <td class="money">$2500</td>
+        </tr>
+    </table>
+    <br />
+    <form action="register.php">
+        <fieldset>
+            <legend>Register your interest</legend>
+            <label for="user">Your name:</label>
+            <input type="text" name="user" id="user">
+            <br>
+            <br>
+            <label for="email">Your email:</label>
+            <input type="text" name="email" id="email">
+            <br>
+            <br>
+            <label for="City">Your closest center:</label>
+            <select name="city" id="City">
+                <option value="">New York</option>
+                <option value="">Chicago</option>
+                <option value="">San Francisco</option>
+            </select>
+            <br>
+            <br>
+            <label for="radio">Are you a member?</label>
+            <input type="radio" name="gender" value="Yes" id="radio" checked="checked">Yes
+            <input type="radio" name="gender" value="No">No
+            <br>
+            <br>
+            <input type="submit" value="Submit" class="submit">
+            <input type="button" value="Cancel" class="submit">
+
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>
