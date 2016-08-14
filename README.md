@@ -1,2 +1,0 @@
-# HTML
-Related HTML projects

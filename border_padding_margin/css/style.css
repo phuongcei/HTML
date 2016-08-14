@@ -1,3 +1,80 @@
-body{
+/*@import url(https://fonts.googleapis.com/css?family=Patrick+Hand&subset=vietnamese,latin);*/
+
+body {
     background-color: bisque;
+    border-style: solid;
+    border-width: thin;
+    border-color: forestgreen;
+}
+
+div {
+    width: 380px;
+    border: 2px groove red;
+    margin: 5px 0px 0px 5px;
+    text-align: center;
+}
+
+p.para1 {
+    width: 250px;
+    height: 200px;
+    background-color: cornflowerblue;
+    margin: 10px auto;
+    /*    padding: 10px 20px 20px 50px;*/
+    padding: 2px 10px 2px 5px;
+    /* Decoration of text   */
+    text-align: right;
+    font-size: 130%;
+    font-family: "HelloWorld";
+    border-style: dotted
+}
+
+@font-face {
+    font-family: 'HelloWorld';
+    src: url('../font/alex-brush/AlexBrush-Regular.ttf');
+}
+
+p.para2 {
+    width: 250px;
+    height: 200px;
+    background-color: coral;
+/*    margin: 15px 5px 5px 5px;*/
+    padding: 35px;
+    text-align: justify;
+    font-size: 90%;
+    /*    border-width: 5px 10px 20px 30px;*/
+    font-family: 'Patrick Hand', cursive;
+}
+
+p.para2 {
+    width: 162px;
+    height: 162px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #f5989d;
+    border-style: groove;
+    border-color: red blue lawngreen fuchsia;
+    margin: 10px auto;
+}
+
+p.para3 {
+    width: 400px;
+    border-style: outset;
+    border-style: ridge;
+    /*    border-width: 4px 5px 10px 5px;*/
+    border-width: thin medium thick;
+    border-width: thin medium thick 10px;
+    background-color: darkgray;
+    border-color: dodgerblue;
+}
+
+p.para4 {
+    width: 200px;
+    border: 2px dotted dodgerblue;
+    padding: 5px;
+}
+
+p.para5 {
+    width: 200px;
+    border: 2px dotted dodgerblue;
 }
